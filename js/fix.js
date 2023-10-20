@@ -16,6 +16,7 @@
       $(".wrap_con1").addClass("fix");
       $(".white").removeClass("on1");
       $(".black").addClass("on1");
+      $(".cls-1").addClass("on");
     }else{
       $("header").addClass("on");
       $(".menu_bar").addClass("on");

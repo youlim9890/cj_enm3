@@ -1,7 +1,6 @@
 $(function(){
   /*메뉴바*/
   $(".menu_bar").click(function () {
-    alert("함수")
     $(this).children(".bar1, .bar2, .bar3").toggleClass("on");
     $(".menu_parent").toggleClass("on");
   });
